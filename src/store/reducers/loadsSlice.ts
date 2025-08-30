@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk, type PayloadAction } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const API_URL = `${import.meta.env.VITE_API_URL}/api/collections/cars/records`;
+const API_URL = `${import.meta.env.VITE_API_URL}/api/collections/loads/records`;
 
 
 export interface Load {

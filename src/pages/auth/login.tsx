@@ -31,9 +31,9 @@ export function Login() {
   };
 
   return (
-    <div className="p-3 h-full flex flex-col gap-5 items-start">
+    <div className="p-3 md:p-0 h-full flex flex-col gap-5 items-start">
        <Button className="ml-4 mt-5" onClick={()=> navigate('/auth/register')}>to register</Button>
-      <div className="max-w-md mx-auto p-5 border rounded-md shadow">
+      <div className="max-w-md md:w-[400px] mx-auto p-5 border rounded-md shadow">
         <h2 className="text-2xl mb-5">Login</h2>
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>

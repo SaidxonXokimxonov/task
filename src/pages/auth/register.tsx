@@ -45,7 +45,7 @@ export function Register() {
         to login
       </Button>
 
-      <div className="max-w-md mx-auto p-5 border rounded-md shadow">
+      <div className="max-w-md mx-auto  md:w-[400px] p-5 border rounded-md shadow">
         <h2 className="text-2xl mb-5">Register</h2>
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
